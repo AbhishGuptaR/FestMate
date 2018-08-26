@@ -1,0 +1,85 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="#000000"
+    android:layout_height="match_parent"
+    tools:context="com.mcet.ponmanikandan.festmate.Event_Contact">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/mcet_logo"
+            android:background="#FFFFFF"
+            android:layout_marginBottom="30dp"/>
+
+        <TextView
+            android:id="@+id/CLG_Name"
+            android:textSize="20sp"
+            android:text="Dr.Mahalingam College Of Engineering and Technology"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:autoSizeTextType="uniform"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:textColor="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="NPT - MCET Campus,Udumalai Road, Pollachi-642 003,Coimbatore - District, Tamilnadu, India"
+            />
+
+        <TextView
+            android:textColor="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Phone: +91 4259 - 236030
+E-mail:principal@drmcet.ac.in"
+            />
+
+
+        <TextView
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="40dp"
+            android:textSize="20sp"
+            android:text="Event Organizer: Mr.Sai"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:autoSizeTextType="uniform"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:text="Contact: 979765652332"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:autoSizeTextType="uniform"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,202 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="20dp"
+    android:background="#000000"
+    tools:context="com.mcet.ponmanikandan.festmate.Event_About">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp">
+
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/TitlePoster"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/festmate_logo" />
+
+        <LinearLayout
+            android:layout_below="@+id/TitlePoster"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:text="Event Details"/>
+
+            <LinearLayout
+
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:textColor="@color/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Event Name:"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:textColor="@color/colorPrimary"
+                    android:background="@null"
+                    android:id="@+id/Name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:text="Uddeshah"
+                    android:hint="Eve!"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:textColor="@color/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Department:"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:textColor="@color/colorPrimary"
+                    android:background="@null"
+                    android:id="@+id/Department"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Eve!"
+                    android:textSize="12sp"
+                    android:text="Information Technology"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:textColor="@color/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="College:"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:textColor="@color/colorPrimary"
+                    android:background="@null"
+                    android:id="@+id/College"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="10sp"
+                    android:text="Dr.Mahalingam College of Engineering and Technology"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:textColor="@color/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Location:"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:textColor="@color/colorPrimary"
+                    android:id="@+id/Location"
+                    android:background="@null"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:hint="Eve!"
+                    android:text="Pollachi, Tamilnadu"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:textColor="@color/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Date"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:textColor="@color/colorPrimary"
+                    android:background="@null"
+                    android:id="@+id/Date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Eve!"
+                    android:textSize="12sp"
+                    android:text="16th January, 2019"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:textColor="#000000"
+                    android:background="@color/colorPrimary"
+                    android:id="@+id/Btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Register!"
+                    android:textAllCaps="false"
+                    />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>
