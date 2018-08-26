@@ -21,7 +21,8 @@
             android:name=".Event_Showcase"
             android:label="@string/title_activity_event__showcase"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".LoginActivity"></activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".AboutUsActivity"></activity>
     </application>
 
 </manifest>

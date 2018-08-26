@@ -48,12 +48,14 @@ public class Menu_Adapter extends ArrayAdapter<String> {
                 Intent i = new Intent(getContext(), Event_Showcase.class);
                 i.putExtra("pos", position);
                 context.startActivity(i);
+                context.overridePendingTransition(R.anim.slide_in_right,R.anim.silde_out_left);
 
             }
 
         });
 
         return rowView;
+
 
     }
 }

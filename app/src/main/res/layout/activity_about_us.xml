@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".AboutUsActivity">
+
+    <ImageView
+        android:layout_margin="10dp"
+        android:id="@+id/mohan"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:src="@drawable/mohanraj_png"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mohan"
+        android:text="Mohanraj R"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="15dp"
+        android:textSize="20sp"/>
+
+    <ImageView
+        android:id="@+id/nishanth"
+        android:layout_margin="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:src="@drawable/nishanth_png"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nishanth"
+        android:layout_alignParentRight="true"
+        android:text="Nishanth M"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginRight="20dp"
+        android:textSize="20sp"/>
+
+    <ImageView
+        android:id="@+id/abhishek"
+        android:layout_margin="10dp"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/abhishek_png"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/abhishek"
+        android:text="Abhishek R"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:layout_marginLeft="10dp"
+        android:id="@+id/ponmani"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/ponmanikandan_png"
+        android:layout_alignParentBottom="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Ponmanikandan V"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <ImageView
+        android:layout_marginRight="10dp"
+        android:id="@+id/sabari"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/sabari_png"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="Sabari S"
+        android:textSize="20sp"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+
+</RelativeLayout>
